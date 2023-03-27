@@ -1,0 +1,56 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    width: 252px;
+    height: 100vh;
+    padding: 50px 15px 60px 55px;
+}
+
+.sidebar__logo {
+    margin-bottom: 57px;
+}
+
+.nav__title {
+    font-weight: 700;
+    margin-bottom: 45px;
+    font-size: 30px;
+}
+.nav__list {
+    font-size: 16px;
+}
+
+.nav__list li{
+    margin-bottom: 28px;
+}
+
+.nav__list a {
+    transition: color 0.2s ease-in;
+}
+
+.nav__list a:hover{
+    color: #fd2e24;
+
+}
+
+.nav__list img{
+    width: 26px;
+    object-fit: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.help {
+    margin-top: auto;
+}
+
+.help img {
+    font-size: 16px;
+    object-fit: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 17px;
+}
